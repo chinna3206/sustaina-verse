@@ -43,6 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
             })
             .then(response => response.json())
             .then(data => {
+                console.log(data)
                 if (data.message) {
                     alert(data.message); // Registration success
                     setTimeout(() => {
@@ -79,6 +80,7 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         .then(response => response.json())
         .then(data => {
+            console.log(data)
             if (data.message) {
                 alert(data.message); // Login success
                 setTimeout(() => {
