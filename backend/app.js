@@ -68,6 +68,7 @@ const insertUser = async (data) => {
         return { status: 500, error: "Internal Server Error" };
     }
 };
+
 app.post('/register',async(req,res)=>{
     const result=await insertUser(req.body);
     res.status(result.status).json(result);
