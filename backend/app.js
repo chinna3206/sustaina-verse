@@ -71,10 +71,4 @@ const insertUser = async (data) => {
 app.post('/register',async(req,res)=>{
     const result=await insertUser(req.body);
     res.status(result.status).json(result);
-    res.sendFile(path.join(__dirname,"../templates/home.html"))
-});
-
-
-app.get("/", async (req, res) => {
-    res.sendFile(path.join(__dirname, "../templates/index.html"));
 });
