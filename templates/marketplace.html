@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenBazaar - Eco-Friendly Marketplace & Swap Zone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f9f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #4CAF50;
+            color: #fff;
+            padding: 3rem;
+            text-align: center;
+        }
+
+        .section {
+            padding: 2rem;
+        }
+
+        .section h2 {
+            color: #4CAF50;
+            margin-bottom: 1rem;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 280px;
+            padding: 1rem;
+            transition: 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: #4CAF50;
+        }
+
+        .card p {
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .swap-button {
+            background: #4CAF50;
+            color: #fff;
+            padding: 0.5rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .swap-button:hover {
+            background: #45a049;
+        }
+
+        /* Upload Form Styles */
+        .upload-form {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 1rem;
+            margin: 2rem auto;
+            width: 80%;
+            max-width: 500px;
+        }
+
+        .upload-form input,
+        .upload-form textarea,
+        .upload-form select {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .upload-form button {
+            background: #4CAF50;
+            color: #fff;
+            padding: 0.7rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .upload-form button:hover {
+            background: #45a049;
+        }
+        nav {
+            background-color: #2c3e50;
+            padding: 15px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+            transition: color 0.3s, transform 0.3s;
+        }
+        nav ul li a:hover {
+            color: #1abc9c;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="track.html">Track Sustainability</a></li>
+            <li><a href="civic.html">Green Watch</a></li>
+            <li><a href="report.html">Report Issues</a></li>
+            <li><a href="ai-suggestions.html">AI Suggestions</a></li>
+            <li><a href="marketplace.html">Marketplace</a></li>
+            <li><a href="gamification.html">Gamification</a></li>
+            <li><a href="dashboard.html">Community Dashboard</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>GreenBazaar - Eco-Friendly Marketplace & Swap Zone</h1>
+    </header>
+
+
+    <div class="section">
+        <h2>🌿 Eco-Friendly Marketplace</h2>
+        <div class="container">
+            <!-- Eco Product 1 -->
+            <div class="card">
+                <img src="https://5.imimg.com/data5/SELLER/Default/2023/2/QR/KI/GP/44793768/bamboo-toothbrush-500x500.png" alt="Toothbrush">
+                <h3>Bamboo Toothbrush Pack</h3>
+                <p>Pack of 4 brushes from a verified eco-friendly brand.</p>
+                <button class="swap-button">Buy Now</button>
+            </div>
+
+            <!-- Eco Product 2 -->
+            <div class="card">
+                <img src="https://images.meesho.com/images/products/387133922/f54gc_512.webp" alt="Solar Lamp">
+                <h3>Solar Wall bulb Lamp</h3>
+                <p>Perfect for sustainable night lighting.</p>
+                <button class="swap-button">Buy Now</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>♻ Swap Zone - Community Listings</h2>
+        <div class="container">
+            <!-- Swap Product 1 -->
+            <div class="card">
+                <img src="https://images.meesho.com/images/products/406984596/sevhv_512.webp" alt="Kurta">
+                <h3>Organic Cotton Kurta</h3>
+                <p>Gently used. Available for swap or donation.</p>
+                <button class="swap-button">Swap Now</button>
+            </div>
+
+            <!-- Swap Product 2 -->
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/61j5yiFVaAL.SX679.jpg" alt="Tiffin Box">
+                <h3>Reusable Tiffin Box</h3>
+                <p>Like new. Ideal for eco-friendly lunch packing!</p>
+                <button class="swap-button">Swap Now</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>📝 Upload Your Product</h2>
+        <form class="upload-form" action="/upload-product" method="POST" enctype="multipart/form-data">
+            <label>Product Name:</label>
+            <input type="text" name="product_name" placeholder="e.g., Solar Phone Charger" required>
+
+            <label>Description:</label>
+            <textarea name="description" placeholder="Add product details..." rows="4" required></textarea>
+
+            <label>Category:</label>
+            <select name="category" required>
+                <option value="marketplace">Eco-Friendly Marketplace</option>
+                <option value="swap">Swap Zone</option>
+            </select>
+
+            <label>Upload Image:</label>
+            <input type="file" name="product_image" accept="image/*" required>
+
+            <label>Contact Email:</label>
+            <input type="email" name="contact_email" placeholder="yourname@example.com" required>
+
+            <button type="submit">Submit Product</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
